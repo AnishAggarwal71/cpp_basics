@@ -1,0 +1,1 @@
+{"name":"Local: ReplacePI","url":"e:\\cpp_basics\\Recursion\\ReplacePI.cpp","tests":[{"id":1630952797070,"input":"","output":"3.14ppxxp3.14ixi3.14\n"},{"id":1630952798326,"input":"","output":"3.14ppxxp3.14ixi3.14\n3.14ppxxp3.14ixi3.14"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cpp_basics\\Recursion\\ReplacePI.cpp","group":"local","local":true}

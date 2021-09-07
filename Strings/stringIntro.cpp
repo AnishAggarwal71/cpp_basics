@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 #include<string>
 using namespace std;
 
@@ -27,14 +28,29 @@ int main(){
         cout << "a is empty" << endl;
     }
 
-    cout << s2.compare(s1) << endl; //-1 so s1 > s2
+    // rowcout << s2.compare(s1) << endl; //-1 so s1 > s2
     if(!s2.compare(s3)){            // s2.compare(s3) gives a bool value
         cout << "s2 and s3 are same"<< endl;
     }
 
     string b = "nincompoop";
-    b.erase(3, 3); // removes
-    cout << b << endl; // ninpoop
+    b.find("com"); //3
+    b.insert(2, "lol"); // ninlolcompoop
+    b.length(); // 13
+    b.erase(3, 3); // removes lol
+    cout << b << endl; // nincompoop
+
+    string s = b.substr(6, 4);
+    cout << s << endl; //poop
+
+    string c = "789"; // Numeric strings
+    int x = stoi(c);
+    cout << x + 2 << endl; // 791
+    cout << to_string(x) + "2" << endl; // 7892
+
+    string d = "ewaghmnbewrtz";
+    sort(d.begin(), d.end());
+    cout << d << endl; //abeeghmnrtwwz
 
     return 0;
 }
