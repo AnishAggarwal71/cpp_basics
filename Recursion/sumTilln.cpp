@@ -26,13 +26,6 @@ int factorial(int n){
     return n * prevFact;
 }
 
-int fibenacci(int n){
-
-    if(n == 0 || n == 1) return n;
-
-    return fibenacci(n-1) + fibenacci(n-2);
-}
-
 int main(){
     int n, pow;
     cin >> n >> pow;
@@ -40,5 +33,6 @@ int main(){
     cout << sum(n) << endl;
     cout << raisedToPower(n, pow) << endl;
     cout << factorial(n) << endl;
-    cout << fibenacci(n) << endl;
+
+    return 0;
 }
