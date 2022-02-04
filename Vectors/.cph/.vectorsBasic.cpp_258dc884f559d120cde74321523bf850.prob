@@ -1,0 +1,1 @@
+{"name":"Local: vectorsBasic","url":"e:\\cpp_basics\\Vectors\\vectorsBasic.cpp","tests":[{"id":1631550253754,"input":"1\n9\na 5 a 8 a 6 a 4 a 9 f d b c","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cpp_basics\\Vectors\\vectorsBasic.cpp","group":"local","local":true}
